@@ -14,3 +14,15 @@
 .addPostButton {
   width: 50%;
 }
+
+.allPosts {
+  margin-top: 20px;
+}
+
+.newPost {
+  margin-top: 20px;
+}
+
+.title {
+  margin-top: 20px;
+}

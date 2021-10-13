@@ -1,6 +1,6 @@
 const Title = () => {
   return (
-    <div>
+    <div className="title">
       <h3>Social Media Website</h3>
     </div>
   );

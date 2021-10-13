@@ -1,6 +1,6 @@
 const AddPost = () => {
   return (
-    <div>
+    <div className="newPost">
       <form className="add-post">
         <input
           className="nameField"

@@ -1,12 +1,12 @@
-import Post from "/.Post";
+import Post from "./Post";
 
-const Posts = (posts) => {
+const Posts = ({ posts }) => {
   return (
-    <>
+    <div className="allPosts">
       {posts.map((post) => (
         <Post key={post.id} post={post} />
       ))}
-    </>
+    </div>
   );
 };
 

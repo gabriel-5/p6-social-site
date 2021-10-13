@@ -1,9 +1,9 @@
 import "../App.css";
 
-const Post = (post) => {
+const Post = ({ post }) => {
   return (
-    <div className="post-container">
-      <p>{post.username}</p>
+    <div className="postContainer">
+      <p>{post.userName}</p>
       <p>{post.text}</p>
     </div>
   );
