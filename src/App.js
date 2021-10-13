@@ -10,7 +10,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
 function App() {
-  const [posts] = useState([
+  const [posts, setPosts] = useState([
     {
       id: 1,
       text: "Test Post 1",
@@ -28,13 +28,20 @@ function App() {
     },
   ]);
 
+  const addPost = (post) => {
+    const id = Math.floor(Math.random() * 10000) + 1;
+
+    const newPost = { id, ...post };
+    setPosts([...post, newPost]);
+  };
+
   return (
     <div className="App">
       <Container className="AppContainer">
         <div className="ComponentContainer">
           <Row>
             <Col>
-              <AddPost />
+              <AddPost onAdd={addPost} />
             </Col>
             <Col>
               <Title />
