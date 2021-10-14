@@ -1,18 +1,31 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+textarea {
+  resize: none;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap");
+
 .post-container {
   width: 350px;
 }
 
-.App {
-  background-color: #99b1ff;
+body {
+  background-color: #2e3233;
+  font-family: "EB Garamond", serif;
 }
 
 .AppContainer {
-  background-color: #011f83;
-  color: #f1dac4;
-}
-
-.addPostButton {
-  width: 50%;
+  /* background-color: #011f83; */
+  color: #fa8072;
 }
 
 .allPosts {
@@ -21,8 +34,76 @@
 
 .newPost {
   margin-top: 20px;
+  transform: rotate(-3deg);
 }
 
-.title {
-  margin-top: 20px;
+.logo {
+  height: 205px;
+  width: 235px;
+}
+
+.postContainer {
+  background-color: #2e3233;
+  border: 1px dashed #fa8072;
+  border-radius: 25px;
+  padding: 10px;
+  transform: rotate(3deg);
+  margin-bottom: 3px;
+}
+
+.addPostButton {
+  width: 600px;
+  height: 600px;
+  background-color: bisque;
+  border: 1px solid black;
+  border-radius: 10opx;
+  margin-right: 40px;
+  transform: rotate(7deg);
+  font-size: 20em;
+}
+
+.nameField {
+  transform: rotate(-10deg);
+}
+
+.msgField {
+  border: 3px solid red;
+  border-radius: 1px;
+  margin-left: 30px;
+}
+
+.phoneField {
+  width: 600px;
+  transform: rotate(10deg);
+}
+
+.thumbsUp {
+  height: 50px;
+  width: 280px;
+  border: 3px dotted #fa8072;
+  border-radius: 25px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.fade {
+  color: white;
+  opacity: 1;
+  transition: all 0.25s;
+}
+
+.postContent {
+  font-style: italic;
+}
+
+.avi {
+  height: 40px;
+  width: 40px;
+}
+
+.pleaseCall {
+  margin-top: 10px;
+  margin-left: 27px;
+  font-style: italic;
+  color: #8d612f;
 }
