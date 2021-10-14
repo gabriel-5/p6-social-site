@@ -5,12 +5,12 @@ import Container from "react-bootstrap/Container";
 const Nav = () => {
   return (
     <div>
-      {/* <p className="nav">
+      <p className="nav">
         <Link className="post" to="/">
           Post
         </Link>
         <Link to="/ViewPosts">View</Link>
-      </p> */}
+      </p>
 
       {/* <Navbar bg="dark" variant="dark">
         <Container>

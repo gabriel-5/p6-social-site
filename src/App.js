@@ -30,7 +30,6 @@ function App() {
             <Row>
               <Col></Col>
               <Col>
-                <Navbar />
                 <Title />
                 <Switch>
                   <Route exact path="/">
