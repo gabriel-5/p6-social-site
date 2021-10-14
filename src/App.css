@@ -38,8 +38,8 @@ body {
 }
 
 .logo {
-  height: 205px;
-  width: 235px;
+  height: 100px;
+  width: 100px;
 }
 
 .postContainer {
@@ -103,7 +103,26 @@ body {
 
 .pleaseCall {
   margin-top: 10px;
-  margin-left: 27px;
+  /* margin-left: 27px; */
   font-style: italic;
   color: #8d612f;
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+}
+
+a {
+  color: #fa8072;
+  text-decoration: none;
+}
+
+.nav {
+  text-align: center;
+  position: fixed;
+}
+
+.post {
+  margin-right: 550px;
 }
